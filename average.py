@@ -2,5 +2,7 @@ def addtwo(a, b):
     added = a + b
     return added
 
-x = addtwo(3, 5)
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+x = addtwo(num2, num1)
 print(x)
