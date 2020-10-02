@@ -1,6 +1,17 @@
 count = 0
+
+lst = []
+
+print("Enter number to compute their sum: ")
+while True:
+    num = input()
+    if num.lower() == "stop":
+        break
+
+    lst.append(int(num))
+
 print('before:',count)
-for i in [1,2,3,4,5,6,7,8,9,0]:
+for i in lst:
     count = count + i
-    print(count,i)
+
 print('After:',count)
