@@ -4,7 +4,7 @@ def greet(lang):
     elif lang == 'fr':
         print('BONJOUR !')
     else:
-        print('HELLO!')
+        print('Helloo!')
 greet('es')
 greet('fr')
 greet('lwda')            
